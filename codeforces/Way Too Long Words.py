@@ -8,4 +8,11 @@ def first_solution(text):
 
     return result
 
-print(first_solution("internationalization"))
+inputs = []
+num = int(input())
+for i in range (0, num):
+    cur = input()
+    inputs.append(cur)
+
+for i in inputs:
+    print(first_solution(i))
