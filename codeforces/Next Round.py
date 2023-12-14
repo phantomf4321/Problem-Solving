@@ -8,8 +8,7 @@ def first_solution(scores, rank):
 
     return counter
 
-num = int(input())
-rank = int(input())
+num = list(map(lambda x: int(x), input().split()))
 input_list = list(map(lambda x: int(x), input().split()))
 
-print(first_solution(input_list, rank))
+print(first_solution(input_list, num[1]))
