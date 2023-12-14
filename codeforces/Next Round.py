@@ -3,7 +3,7 @@ def first_solution(scores, rank):
     scores.sort(reverse=True)
     rank = scores[rank - 1]
     for i in scores:
-        if(i >= rank):
+        if(i >= rank and i > 0):
             counter += 1
 
     return counter
