@@ -11,5 +11,12 @@ def first_solution(a):
             break
     if (confirm == 0):
         print("NO")
+
+
+def second_solution(a):
+    if(a%2 == 0 and a!=2):
+        print("YES")
+    else:
+        print("NO")
 x = int(input())
 first_solution(x)
