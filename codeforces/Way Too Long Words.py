@@ -1,6 +1,8 @@
 def first_solution(text):
-
-    result = text[0] + text[-1]
+    if(len(text) > 10):
+        result = text[0] + text[-1]
+    else:
+        result = text
 
     return result
 
