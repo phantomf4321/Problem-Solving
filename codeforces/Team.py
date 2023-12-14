@@ -1,6 +1,6 @@
 def first_solution(my_list):
     for i in my_list:
-        print(i)
+        print(i.count(1))
 
 """num = int(input())
 my_list = []
