@@ -5,6 +5,7 @@ def first_solution(my_list):
             result += 1
     return result
 
+
 num = int(input())
 my_list = []
 
