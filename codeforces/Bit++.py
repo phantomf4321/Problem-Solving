@@ -1,15 +1,15 @@
 def first_solution(xlist):
+    counter = 0
     for i in xlist:
-        counter = 0
-        if(i[0] == "+" and i[1] == "+"):
+        if(i[1] == "+" and i[2] == "+"):
+            print("hi")
             counter += 1
         if (i[0] == "-" and i[1] == "-"):
+            print("ih")
             counter -= 1
-        print(counter)
+    return(counter)
 
 n = int(input())
-list = list(map(lambda x: int(x), input().split()))
-
-for i in range(0, n):
-    print(first_solution(list))
+list = list(map(lambda x: str(x), input().split()))
+print(first_solution(list))
 
