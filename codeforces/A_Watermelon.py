@@ -18,5 +18,6 @@ def second_solution(a):
         print("YES")
     else:
         print("NO")
+        
 x = int(input())
 first_solution(x)
