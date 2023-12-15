@@ -1,16 +1,17 @@
 def first_solution(xlist):
     counter = 0
     for i in xlist:
-        if(i[0] == "X"):
-            print("hi")
+        if(i[1] == "+" and i[2] == "+"):
             counter += 1
-        if (i[1] == "X"):
-            print("ih")
+        if (i[0] == "-" and i[1] == "-"):
             counter -= 1
-
     return(counter)
 
 n = int(input())
-list = list(map(lambda x: str(x), input().split()))
+list = []
+for i in range(0, n):
+    cur = input()
+    list.append(cur)
+
 print(first_solution(list))
 
