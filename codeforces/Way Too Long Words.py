@@ -10,6 +10,7 @@ def first_solution(text):
 
 inputs = []
 num = int(input())
+
 for i in range (0, num):
     cur = input()
     inputs.append(cur)
