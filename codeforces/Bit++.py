@@ -13,5 +13,6 @@ for i in range(0, n):
     cur = input()
     list.append(cur)
 
+
 print(first_solution(list))
 
