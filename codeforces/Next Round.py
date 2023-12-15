@@ -11,4 +11,5 @@ def first_solution(scores, rank):
 num = list(map(lambda x: int(x), input().split()))
 input_list = list(map(lambda x: int(x), input().split()))
 
+
 print(first_solution(input_list, num[1]))
