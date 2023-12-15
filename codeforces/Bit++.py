@@ -1,12 +1,13 @@
 def first_solution(xlist):
     counter = 0
     for i in xlist:
-        if(i[1] == "+" and i[2] == "+"):
+        if(i[0] == "X"):
             print("hi")
             counter += 1
-        if (i[0] == "-" and i[1] == "-"):
+        if (i[1] == "X"):
             print("ih")
             counter -= 1
+
     return(counter)
 
 n = int(input())
