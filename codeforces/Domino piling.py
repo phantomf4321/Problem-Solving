@@ -3,6 +3,6 @@ def first_solution(m, n):
 
 M, N = map(int, input().split())
 
-max_dominoes = (M * N) // 2
+max_dominoes = first_solution(M, N)
 
 print(max_dominoes)
