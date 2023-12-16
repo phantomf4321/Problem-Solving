@@ -8,7 +8,7 @@ def round(a):
 def first_solution(m, n, a):
     var1 = round(m/a)
     var2 = round(n/a)
-    return var1 * var2
+    return int(var1 * var2)
 
 input_list = list(map(lambda x: int(x), input().split()))
 
