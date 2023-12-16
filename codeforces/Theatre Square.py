@@ -10,7 +10,5 @@ def first_solution(m, n, a):
     var2 = round(n/a)
     return var1 * var2
 
-n = int(input())
-m = int(input())
-a = int(input())
-print(first_solution(m, n, a))
+input_list = list(map(lambda x: int(x), input().split()))
+print(first_solution(input_list[0], input_list[1], input_list[2]))
