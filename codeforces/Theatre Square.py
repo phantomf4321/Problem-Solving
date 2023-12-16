@@ -10,4 +10,7 @@ def first_solution(m, n, a):
     var2 = round(n/a)
     return var1 * var2
 
-print(first_solution(6, 6, 4))
+n = int(input())
+m = int(input())
+a = int(input())
+print(first_solution(m, n, a))
