@@ -1,5 +1,6 @@
 def first_solution(m):
-    return m
+    d = dict( (j,(x, y)) for x, i in enumerate(m) for y, j in enumerate(i) )
+    return d[1]
 
 matrix = []
 for i in range(0, 5):
