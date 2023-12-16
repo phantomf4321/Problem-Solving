@@ -11,4 +11,5 @@ def first_solution(m, n, a):
     return var1 * var2
 
 input_list = list(map(lambda x: int(x), input().split()))
+
 print(first_solution(input_list[0], input_list[1], input_list[2]))
