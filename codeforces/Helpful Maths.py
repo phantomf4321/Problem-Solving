@@ -3,3 +3,5 @@ def first_solution(text):
     sorted_expression = '+'.join(str(num) for num in sorted(numbers))  # Sort the numbers and join them back with '+'
 
     return sorted_expression
+
+text = input()
