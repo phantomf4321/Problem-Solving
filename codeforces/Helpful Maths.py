@@ -5,3 +5,4 @@ def first_solution(text):
     return sorted_expression
 
 text = input()
+print(first_solution(text))
