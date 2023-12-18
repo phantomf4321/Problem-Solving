@@ -1,5 +1,9 @@
+def first_solution(text):
+    first = text[0].capitalize()
+    second = text[1:]
+    result = first + second
+
+    return result
+
 text = input()
-first = text[0].capitalize()
-second = text[1:]
-result = first + second
-print(result)
+print(first_solution(text))
