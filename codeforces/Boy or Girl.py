@@ -5,5 +5,5 @@ def first_solution(my_string):
     else:
         return("IGNORE HIM!")
 
-my_string = "xiaodao"
+my_string = input()
 print(first_solution(my_string))
