@@ -1,4 +1,4 @@
-def banana(k, n, w):
+def first_solution(k, n, w):
     counter = 1
     saver = 0
     while counter <= w:
@@ -12,4 +12,4 @@ def banana(k, n, w):
         return res
     
 k, n, w = map(int, input().split())
-print(banana(k, n, w))
+print(first_solution(k, n, w))
